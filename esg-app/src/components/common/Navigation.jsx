@@ -24,13 +24,13 @@ const Navigation = () => {
             to="/" 
             className={`nav-link ${isActive('/') ? 'active' : ''}`}
           >
-            📊 Leaderboard
+            Leaderboard
           </Link>
           <Link 
             to="/search" 
             className={`nav-link ${isActive('/search') ? 'active' : ''}`}
           >
-            🔍 Search Companies
+            Search Companies
           </Link>
         </div>
 

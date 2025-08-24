@@ -10,8 +10,8 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #f5f6fa;
-  color: #2c3e50;
+  background-color: #ffffff;
+  color: #333333;
   line-height: 1.6;
 }
 
@@ -45,30 +45,31 @@ main {
 }
 
 .btn-primary {
-  background: #007bff;
+  background: #333333;
   color: white;
 }
 
 .btn-primary:hover {
-  background: #0056b3;
+  background: #555555;
 }
 
 .btn-secondary {
-  background: #6c757d;
-  color: white;
+  background: #f8f8f8;
+  color: #333333;
+  border: 1px solid #e0e0e0;
 }
 
 .btn-secondary:hover {
-  background: #545b62;
+  background: #e8e8e8;
 }
 
 .btn-success {
-  background: #28a745;
+  background: #333333;
   color: white;
 }
 
 .btn-success:hover {
-  background: #1e7e34;
+  background: #555555;
 }
 
 /* Loading and error states */

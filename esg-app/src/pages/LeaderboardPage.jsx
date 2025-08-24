@@ -46,8 +46,8 @@ const LeaderboardPage = () => {
   const sampleCompanies = getFilteredCompanies();
 
   const getScoreColor = (score) => {
-    if (score >= 80) return '#4CAF50'; // green
-    if (score >= 60) return '#FF9800'; // orange
+    if (score >= 8.0) return '#4CAF50'; // green
+    if (score >= 6.0) return '#FF9800'; // orange
     return '#f44336'; // red
   };
 

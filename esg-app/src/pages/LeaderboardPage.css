@@ -10,7 +10,7 @@
 }
 
 .page-header h1 {
-  color: #2c3e50;
+  color: #333333;
   font-size: 2.5rem;
   margin-bottom: 10px;
 }
@@ -32,12 +32,12 @@
   justify-content: space-between;
   align-items: center;
   padding: 20px 30px;
-  background: #f8f9fa;
-  border-bottom: 2px solid #e9ecef;
+  background: #ffffff;
+  border-bottom: 2px solid #f0f0f0;
 }
 
 .leaderboard-header h2 {
-  color: #2c3e50;
+  color: #333333;
   margin: 0;
 }
 
@@ -57,7 +57,7 @@
 
 .filter-select:focus {
   outline: none;
-  border-color: #007bff;
+  border-color: #333333;
 }
 
 .leaderboard-table {
@@ -69,7 +69,7 @@
   grid-template-columns: 80px 1fr 120px 140px 120px;
   gap: 20px;
   padding: 20px 30px;
-  background: #343a40;
+  background: #333333;
   color: white;
   font-weight: bold;
   font-size: 14px;
@@ -87,7 +87,7 @@
 }
 
 .table-row:hover {
-  background-color: #f8f9fa;
+  background-color: #f8f8f8;
 }
 
 .table-row:last-child {
@@ -101,7 +101,7 @@
 
 .company-info h3 {
   margin: 0 0 5px 0;
-  color: #2c3e50;
+  color: #333333;
   font-size: 1.1rem;
 }
 
@@ -132,12 +132,12 @@
 }
 
 .no-violations {
-  color: #28a745;
+  color: #666666;
   font-weight: bold;
 }
 
 .view-details-btn {
-  background: #007bff;
+  background: #333333;
   color: white;
   border: none;
   padding: 8px 16px;
@@ -148,7 +148,7 @@
 }
 
 .view-details-btn:hover {
-  background: #0056b3;
+  background: #555555;
 }
 
 /* Responsive Design */
